@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Go-PassLH themes (light and night): shapes, typography, hairline cards, transitions. Legacy themes are untouched.
+  Derived from KeePassDX, Copyright Jeremy Jamet / Kunzisoft, GPLv3.
+-->
+<resources>
+    <style name="ShapeAppearance.GoPassLH.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/gopasslh_radius_md</item>
+    </style>
+    <style name="ShapeAppearance.GoPassLH.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/gopasslh_radius_lg</item>
+    </style>
+    <style name="ShapeAppearance.GoPassLH.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/gopasslh_radius_xl</item>
+    </style>
+    <style name="GoPassLH.WindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/gopasslh_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/gopasslh_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/gopasslh_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/gopasslh_close_exit</item>
+    </style>
+    <!-- Typography: medium weight for titles and buttons (system font family, no bundled fonts) -->
+    <style name="TextAppearance.GoPassLH.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.GoPassLH.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.GoPassLH.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.GoPassLH.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <!-- Cards: flat with a hairline border instead of a shadow -->
+    <style name="GoPassLH.Cardview" parent="KeepassDXStyle.Cardview">
+        <item name="cardElevation">@dimen/gopasslh_elevation_none</item>
+        <item name="cardCornerRadius">@dimen/gopasslh_radius_lg</item>
+        <item name="strokeWidth">@dimen/gopasslh_stroke_hairline</item>
+        <item name="strokeColor">@color/gopasslh_light_hairline</item>
+    </style>
+    <style name="GoPassLH.Night.Cardview" parent="KeepassDXStyle.Cardview">
+        <item name="cardElevation">@dimen/gopasslh_elevation_none</item>
+        <item name="cardCornerRadius">@dimen/gopasslh_radius_lg</item>
+        <item name="strokeWidth">@dimen/gopasslh_stroke_hairline</item>
+        <item name="strokeColor">@color/gopasslh_night_hairline</item>
+    </style>
+    <!-- Go-PassLH light -->
+    <style name="KeepassDXStyle.GoPassLH" parent="KeepassDXStyle.Light">
+        <item name="colorPrimary">@color/gopasslh_light_primary</item>
+        <item name="colorPrimaryDark">@color/gopasslh_light_primaryDark</item>
+        <item name="colorOnPrimary">@color/gopasslh_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/gopasslh_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/gopasslh_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/gopasslh_light_secondary</item>
+        <item name="colorOnSecondary">@color/gopasslh_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/gopasslh_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/gopasslh_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/gopasslh_light_tertiary</item>
+        <item name="colorOnTertiary">@color/gopasslh_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/gopasslh_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/gopasslh_light_onTertiaryContainer</item>
+        <item name="colorError">@color/gopasslh_light_error</item>
+        <item name="colorErrorContainer">@color/gopasslh_light_errorContainer</item>
+        <item name="colorOnError">@color/gopasslh_light_onError</item>
+        <item name="colorOnErrorContainer">@color/gopasslh_light_onErrorContainer</item>
+        <item name="android:windowBackground">@color/gopasslh_light_background</item>
+        <item name="android:colorBackground">@color/gopasslh_light_background</item>
+        <item name="colorOnBackground">@color/gopasslh_light_onBackground</item>
+        <item name="colorSurface">@color/gopasslh_light_surface</item>
+        <item name="colorOnSurface">@color/gopasslh_light_onSurface</item>
+        <item name="colorSurfaceContainerLowest">@color/gopasslh_light_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/gopasslh_light_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/gopasslh_light_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/gopasslh_light_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/gopasslh_light_surfaceContainerHighest</item>
+        <item name="colorSurfaceVariant">@color/gopasslh_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/gopasslh_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/gopasslh_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/gopasslh_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/gopasslh_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/gopasslh_light_inversePrimary</item>
+        <item name="android:textColorHighlight">@color/gopasslh_light_surfaceVariant</item>
+        <item name="android:textColorPrimary">@color/gopasslh_light_primary</item>
+        <item name="dialogBackgroundColor">@color/gopasslh_light_surfaceContainerHigh</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.GoPassLH.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.GoPassLH.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.GoPassLH.Large</item>
+        <item name="android:windowAnimationStyle">@style/GoPassLH.WindowAnimation</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.GoPassLH.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.GoPassLH.TitleMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.GoPassLH.HeadlineSmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.GoPassLH.LabelLarge</item>
+        <item name="materialCardViewStyle">@style/GoPassLH.Cardview</item>
+        <item name="cardViewStyle">@style/GoPassLH.Cardview</item>
+    </style>
+    <!-- Go-PassLH night -->
+    <style name="KeepassDXStyle.GoPassLH.Night" parent="KeepassDXStyle.Night">
+        <item name="colorPrimary">@color/gopasslh_night_primary</item>
+        <item name="colorPrimaryDark">@color/gopasslh_night_primaryDark</item>
+        <item name="colorOnPrimary">@color/gopasslh_night_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/gopasslh_night_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/gopasslh_night_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/gopasslh_night_secondary</item>
+        <item name="colorOnSecondary">@color/gopasslh_night_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/gopasslh_night_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/gopasslh_night_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/gopasslh_night_tertiary</item>
+        <item name="colorOnTertiary">@color/gopasslh_night_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/gopasslh_night_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/gopasslh_night_onTertiaryContainer</item>
+        <item name="colorError">@color/gopasslh_night_error</item>
+        <item name="colorErrorContainer">@color/gopasslh_night_errorContainer</item>
+        <item name="colorOnError">@color/gopasslh_night_onError</item>
+        <item name="colorOnErrorContainer">@color/gopasslh_night_onErrorContainer</item>
+        <item name="android:windowBackground">@color/gopasslh_night_background</item>
+        <item name="android:colorBackground">@color/gopasslh_night_background</item>
+        <item name="colorOnBackground">@color/gopasslh_night_onBackground</item>
+        <item name="colorSurface">@color/gopasslh_night_surface</item>
+        <item name="colorOnSurface">@color/gopasslh_night_onSurface</item>
+        <item name="colorSurfaceContainerLowest">@color/gopasslh_night_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/gopasslh_night_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/gopasslh_night_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/gopasslh_night_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/gopasslh_night_surfaceContainerHighest</item>
+        <item name="colorSurfaceVariant">@color/gopasslh_night_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/gopasslh_night_onSurfaceVariant</item>
+        <item name="colorOutline">@color/gopasslh_night_outline</item>
+        <item name="colorOnSurfaceInverse">@color/gopasslh_night_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/gopasslh_night_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/gopasslh_night_inversePrimary</item>
+        <item name="android:textColorHighlight">@color/gopasslh_night_surfaceVariant</item>
+        <item name="android:textColorPrimary">@color/gopasslh_night_primary</item>
+        <item name="dialogBackgroundColor">@color/gopasslh_night_surfaceContainerHigh</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.GoPassLH.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.GoPassLH.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.GoPassLH.Large</item>
+        <item name="android:windowAnimationStyle">@style/GoPassLH.WindowAnimation</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.GoPassLH.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.GoPassLH.TitleMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.GoPassLH.HeadlineSmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.GoPassLH.LabelLarge</item>
+        <item name="materialCardViewStyle">@style/GoPassLH.Night.Cardview</item>
+        <item name="cardViewStyle">@style/GoPassLH.Night.Cardview</item>
+    </style>
+</resources>

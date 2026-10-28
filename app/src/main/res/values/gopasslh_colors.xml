@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Go-PassLH palette: midnight ink, warm ivory and antique gold.
+  Chosen by design (not extracted from any logo). All theme colors live in this single file.
+  Derived from KeePassDX, Copyright Jeremy Jamet / Kunzisoft, GPLv3.
+-->
+<resources>
+    <color name="gopasslh_light_primary">#1B2540</color>
+    <color name="gopasslh_light_primaryDark">#111828</color>
+    <color name="gopasslh_light_onPrimary">#FFFFFF</color>
+    <color name="gopasslh_light_primaryContainer">#E4E8F4</color>
+    <color name="gopasslh_light_onPrimaryContainer">#0E1630</color>
+    <color name="gopasslh_light_secondary">#8A6112</color>
+    <color name="gopasslh_light_onSecondary">#FFFFFF</color>
+    <color name="gopasslh_light_secondaryContainer">#F4E6BE</color>
+    <color name="gopasslh_light_onSecondaryContainer">#2F2000</color>
+    <color name="gopasslh_light_tertiary">#1E6B50</color>
+    <color name="gopasslh_light_onTertiary">#FFFFFF</color>
+    <color name="gopasslh_light_tertiaryContainer">#CFEBDD</color>
+    <color name="gopasslh_light_onTertiaryContainer">#00221A</color>
+    <color name="gopasslh_light_error">#B3261E</color>
+    <color name="gopasslh_light_errorContainer">#F9DEDC</color>
+    <color name="gopasslh_light_onError">#FFFFFF</color>
+    <color name="gopasslh_light_onErrorContainer">#410E0B</color>
+    <color name="gopasslh_light_background">#FBF9F4</color>
+    <color name="gopasslh_light_onBackground">#1C1B18</color>
+    <color name="gopasslh_light_surface">#FBF9F4</color>
+    <color name="gopasslh_light_onSurface">#1C1B18</color>
+    <color name="gopasslh_light_surfaceContainerLowest">#FFFFFF</color>
+    <color name="gopasslh_light_surfaceContainerLow">#F6F3EC</color>
+    <color name="gopasslh_light_surfaceContainer">#F1EEE6</color>
+    <color name="gopasslh_light_surfaceContainerHigh">#ECE8DF</color>
+    <color name="gopasslh_light_surfaceContainerHighest">#E6E2D8</color>
+    <color name="gopasslh_light_surfaceVariant">#E8E3D6</color>
+    <color name="gopasslh_light_onSurfaceVariant">#4A473E</color>
+    <color name="gopasslh_light_outline">#7B776B</color>
+    <color name="gopasslh_light_inverseSurface">#302F2B</color>
+    <color name="gopasslh_light_inverseOnSurface">#F4F0E8</color>
+    <color name="gopasslh_light_inversePrimary">#B9C6EE</color>
+    <color name="gopasslh_light_hairline">#E2DDCF</color>
+    <color name="gopasslh_night_primary">#C7D2F5</color>
+    <color name="gopasslh_night_primaryDark">#131C38</color>
+    <color name="gopasslh_night_onPrimary">#131C38</color>
+    <color name="gopasslh_night_primaryContainer">#2A3558</color>
+    <color name="gopasslh_night_onPrimaryContainer">#DDE4FB</color>
+    <color name="gopasslh_night_secondary">#E4C373</color>
+    <color name="gopasslh_night_onSecondary">#3A2A00</color>
+    <color name="gopasslh_night_secondaryContainer">#54400F</color>
+    <color name="gopasslh_night_onSecondaryContainer">#F8E4B0</color>
+    <color name="gopasslh_night_tertiary">#7ED3AE</color>
+    <color name="gopasslh_night_onTertiary">#00382A</color>
+    <color name="gopasslh_night_tertiaryContainer">#0F513C</color>
+    <color name="gopasslh_night_onTertiaryContainer">#A0F0CA</color>
+    <color name="gopasslh_night_error">#F2B8B5</color>
+    <color name="gopasslh_night_errorContainer">#8C1D18</color>
+    <color name="gopasslh_night_onError">#601410</color>
+    <color name="gopasslh_night_onErrorContainer">#F9DEDC</color>
+    <color name="gopasslh_night_background">#0B0E16</color>
+    <color name="gopasslh_night_onBackground">#ECE9E1</color>
+    <color name="gopasslh_night_surface">#0B0E16</color>
+    <color name="gopasslh_night_onSurface">#ECE9E1</color>
+    <color name="gopasslh_night_surfaceContainerLowest">#070A10</color>
+    <color name="gopasslh_night_surfaceContainerLow">#10141D</color>
+    <color name="gopasslh_night_surfaceContainer">#151A25</color>
+    <color name="gopasslh_night_surfaceContainerHigh">#1B2130</color>
+    <color name="gopasslh_night_surfaceContainerHighest">#232A3A</color>
+    <color name="gopasslh_night_surfaceVariant">#2B3142</color>
+    <color name="gopasslh_night_onSurfaceVariant">#C5C6CF</color>
+    <color name="gopasslh_night_outline">#8B8E9C</color>
+    <color name="gopasslh_night_inverseSurface">#ECE9E1</color>
+    <color name="gopasslh_night_inverseOnSurface">#2F2E2A</color>
+    <color name="gopasslh_night_inversePrimary">#1B2540</color>
+    <color name="gopasslh_night_hairline">#262C3D</color>
+</resources>

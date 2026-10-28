@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Go-PassLH design tokens (non-color).
+  Color tokens are intentionally absent: they depend on the official logo, which is still pending.
+  These resources are additive and unused until screens are restyled; legacy themes are untouched.
+
+  Derived from KeePassDX, Copyright Jeremy Jamet / Kunzisoft, licensed under GPLv3.
+-->
+<resources>
+    <!-- Spacing scale (4dp grid) -->
+    <dimen name="gopasslh_space_xxs">2dp</dimen>
+    <dimen name="gopasslh_space_xs">4dp</dimen>
+    <dimen name="gopasslh_space_sm">8dp</dimen>
+    <dimen name="gopasslh_space_md">12dp</dimen>
+    <dimen name="gopasslh_space_lg">16dp</dimen>
+    <dimen name="gopasslh_space_xl">24dp</dimen>
+    <dimen name="gopasslh_space_xxl">32dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="gopasslh_radius_sm">8dp</dimen>
+    <dimen name="gopasslh_radius_md">12dp</dimen>
+    <dimen name="gopasslh_radius_lg">16dp</dimen>
+    <dimen name="gopasslh_radius_xl">24dp</dimen>
+
+    <!-- Borders and elevation (restrained: prefer hairline borders over shadows) -->
+    <dimen name="gopasslh_stroke_hairline">1dp</dimen>
+    <dimen name="gopasslh_stroke_focus">2dp</dimen>
+    <dimen name="gopasslh_elevation_none">0dp</dimen>
+    <dimen name="gopasslh_elevation_card">1dp</dimen>
+    <dimen name="gopasslh_elevation_raised">3dp</dimen>
+    <dimen name="gopasslh_elevation_dialog">6dp</dimen>
+
+    <!-- Type scale (sp, so it follows the user's font-size setting) -->
+    <dimen name="gopasslh_text_caption">12sp</dimen>
+    <dimen name="gopasslh_text_body_sm">14sp</dimen>
+    <dimen name="gopasslh_text_body">16sp</dimen>
+    <dimen name="gopasslh_text_title_sm">18sp</dimen>
+    <dimen name="gopasslh_text_title">22sp</dimen>
+    <dimen name="gopasslh_text_headline">28sp</dimen>
+
+    <!-- Icon sizes and touch targets -->
+    <dimen name="gopasslh_icon_sm">18dp</dimen>
+    <dimen name="gopasslh_icon_md">24dp</dimen>
+    <dimen name="gopasslh_icon_entry">40dp</dimen>
+    <dimen name="gopasslh_touch_min">48dp</dimen>
+
+    <!-- Motion (ms). Code must skip or shorten these when animations are disabled system-wide. -->
+    <integer name="gopasslh_motion_fast">120</integer>
+    <integer name="gopasslh_motion_standard">220</integer>
+    <integer name="gopasslh_motion_emphasized">320</integer>
+
+    <!-- Display names, same order as list_style_values_light. Items reference existing translated strings. -->
+    <string-array name="list_style_names_gopasslh">
+        <item>@string/style_name_gopasslh</item>
+        <item>@string/style_name_forest</item>
+        <item>@string/style_name_divine</item>
+        <item>@string/style_name_classic</item>
+        <item>@string/style_name_simple</item>
+        <item>@string/style_name_moon</item>
+        <item>@string/style_name_sun</item>
+        <item>@string/style_name_reply</item>
+        <item>@string/style_name_kunzite</item>
+        <item>@string/style_name_follow_system</item>
+    </string-array>
+</resources>
